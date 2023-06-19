@@ -2,7 +2,7 @@
 Creating and manipulating a Mongo DB database <br />
 The `NoSQL_setup.ipynb` file sets up and updates the database. The `NoSQL_analysis.ipynb` file queries relevant information for analyses and converts results into Pandas DataFrame. The data provided in the `establishments.json` file was imported using Terminal with `mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json`. 
 
-## Set Up and Update Database
+**Set Up and Update Database**
 * Insert the new halal restaurant opened in Greenwich to the Database.
     ```
     establishments.insert_one(new_restaurant)
@@ -33,7 +33,7 @@ The `NoSQL_setup.ipynb` file sets up and updates the database. The `NoSQL_analys
                                )
     ```
     
-## Exploratory Analysis
+**Exploratory Analysis**
 1. Which establishments have a hygiene score equal to 20?
    
    There are 41 establishments with a hygiene score of 20 from the `uk_food` dataset.
@@ -48,7 +48,7 @@ The `NoSQL_setup.ipynb` file sets up and updates the database. The `NoSQL_analys
    
 4. How many establishments in each Local Authority area have a hygiene score of 0?
    
-   There are 55 rows in the DataFrame. This is the preview of the first 10 rows:
+   There are 55 rows in the DataFrame. Preview of the first 10 rows:
     | _id | count |
     |-----|-------|
     |Thanet|1130|
