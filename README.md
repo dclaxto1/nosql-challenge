@@ -18,7 +18,7 @@ The `NoSQL_setup.ipynb` file sets up and updates the database. The `NoSQL_analys
     )
     ```
     
-* Drop all establishments that has Dover as their Local Authority from the database. 
+* Droping all establishments that has Dover as their Local Authority from the database. 
     ```
     establishments.delete_many({'LocalAuthorityName': 'Dover'})
     ```
