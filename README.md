@@ -44,7 +44,7 @@ The `NoSQL_setup.ipynb` file sets up and updates the database. The `NoSQL_analys
 
 3. What are the top 5 establishments with a RatingValue rating value of '5', sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?
 
-   The top 5 establishments with a RatingValue of '5' sorted by lowest hygiene score nearest to "Penang Flavours" are: "Volunteer", "Plumstead Manor Nursery", "Atlantic Fish Bar", "Iceland", and "Howe and Co Fish and Chips - Van 17". 
+   The top 5 establishments with a RatingValue of '5' sorted by lowest hygiene score nearest to "Penang Flavours" are: "Volunteer", "Plumstead Manor Nursery", "Atlantic Fish Bar", "Iceland", and "How and Co Fish and Chips - Van 17". 
    
 4. How many establishments in each Local Authority area have a hygiene score of 0?
    
