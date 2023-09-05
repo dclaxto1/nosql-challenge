@@ -48,7 +48,7 @@ The `NoSQL_setup.ipynb` file sets up and updates the database. The `NoSQL_analys
    
 4. How many establishments in each Local Authority area have a hygiene score of 0?
    
-   There are 55 rows this DataFrame. Preview of the first 10 rows:
+   There are 55 rows this DataFrame. Here is a preview of the first 10 rows:
     | _id | count |
     |-----|-------|
     |Thanet|1130|
