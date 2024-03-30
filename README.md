@@ -1,5 +1,5 @@
 # nosql-challenge
-Creating and manipulating a Mongo DB database <br />  
+Creating and manipulating a Mongo DB database <br />   
 The `NoSQL_setup.ipynb` file sets up and updates the database. The `NoSQL_analysis.ipynb` file queries relevant information for analyses and converts results into Pandas DataFrame. The data provided in the `establishments.json` file was imported using Terminal with `mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json`. 
 
 **Set Up and Update Database**
